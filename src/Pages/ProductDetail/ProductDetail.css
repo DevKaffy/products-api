@@ -1,3 +1,6 @@
 .product-detail{
-    @apply bg-red-500 flex gap-4;
+    @apply flex justify-center gap-20 mx-8 my-20;
+}
+.details {
+    @apply flex flex-col gap-4;
 }

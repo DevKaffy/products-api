@@ -24,19 +24,23 @@ const ProductDetail = () => {
     }, [id]);
   return (
     <>
-    <div className='product-detail'>
-    <div className='w-full'>
-      <img className='bg-cover' src={productDetail.image} alt="" />
-    </div>
-    <div>
-      <p>{productDetail.title}</p>
-      <p>{productDetail.category}</p>
-      <p>{productDetail.description}</p>
-      <p>Price: {productDetail.price}</p>
-    </div>
-    </div>
+      <div className="product-detail">
+        <div className="w-full">
+          <img
+            className="bg-cover rounded-[5px]"
+            src={productDetail.image}
+            alt=""
+          />
+        </div>
+        <div className="details">
+          <p className="font-bold text-4xl">{productDetail.title}</p>
+          <p className="font-medium text-2xl">{productDetail.category}</p>
+          <p>{productDetail.description}</p>
+          <p className="font-bold text-xl">Price: {productDetail.price}</p>
+        </div>
+      </div>
     </>
-  )
+  );
 }
 
 export default ProductDetail
