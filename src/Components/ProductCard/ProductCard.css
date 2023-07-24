@@ -1,0 +1,6 @@
+.product-card {
+   @apply flex flex-col items-center w-[25rem];
+}
+.image img{
+    @apply h-[25rem] w-[20rem];
+}

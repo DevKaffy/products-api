@@ -1,0 +1,3 @@
+.main-product {
+    @apply p-8 flex flex-wrap;
+}
