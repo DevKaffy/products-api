@@ -6,12 +6,12 @@ const MainProduct = ({product}) => {
   return (
     <div className='main-product'>
         {
-            product.map((product)=>
+            product.map((product, index)=>
             <ProductCard product={product}
-            key={product.id}
+            key= {`product - ${index}`}
+            id={product.id}
             title={product.title}
             imageUrl={product.image}
-            desc={product.description}
             price={product.price}
             />
             )

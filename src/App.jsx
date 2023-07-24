@@ -1,23 +1,26 @@
-import React, { useEffect, useState } from 'react'
-import axios from 'axios';
-import MainProduct from './Components/MainProduct/MainProduct';
+import React from 'react';
+import { createBrowserRouter, RouterProvider, } from 'react-router-dom'
+import './App.css'
+import Home from './Pages/Home/Home';
+import ProductDetail from './Pages/ProductDetail/ProductDetail';
+import NotFound from './Pages/NotFound/NotFound';
 
 const App = () => {
-  const [products, setProducts] = useState([]);
-  
-  useEffect(()=> {
-    axios("https://fakestoreapi.com/products").then((res) => {
-      let data = res.data
-      setProducts([...products].concat(data))
-    });
-  }, [])
-console.log(products);
+  const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <Home />,
+    },
+    {
+      path: "/:id",
+      element: <ProductDetail />,
+    },
+    {
+      path: "*",
+      element: <NotFound />,
+    },
+  ]);
+ return <RouterProvider router={router} />;
+};
 
-  return (
-    <div>
-      <MainProduct  product={products}/>
-    </div>
-  )
-}
-
-export default App
+export default App;
