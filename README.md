@@ -1,8 +1,27 @@
-# React + Vite
+# Products API UI
+Fetching an e-commerce api from fake store using Axios library.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Prequisite
+- Your browser version should be up to date for better experience
 
-Currently, two official plugins are available:
+## Features
+- Home page
+- Product detail
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Tech/framework used
+- Reactjs
+- Javascript
+- Css
+
+## Preview here
+[Go Live](https://products-api-ui.netlify.app/)
+
+
+## Contact
+If you want to contact me you can reach me at
+- https://github.com/DevKaffy or
+- kafilatadewumi61@gmail.com
+
+## Addtional Info
+- This is not meant for production. It's for learning purpose only
