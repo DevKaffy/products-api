@@ -2,6 +2,7 @@ import React, {useState, useEffect } from 'react'
 import axios from 'axios'
 import {useParams} from 'react-router-dom'
 import './ProductDetail.css'
+import Layout from '../../Components/Layout/Layout'
 
 const ProductDetail = () => {
     const {id} = useParams()
@@ -23,7 +24,7 @@ const ProductDetail = () => {
       fetchProduct();
     }, [id]);
   return (
-    <>
+    <Layout>
       <div className="product-detail">
         <div className="w-full">
           <img
@@ -40,7 +41,7 @@ const ProductDetail = () => {
           <button className='bg-blue-600 w-[10rem] h-[3rem] text-white rounded-[5px] mt-[2rem]'>Buy Now</button>
         </div>
       </div>
-    </>
+    </Layout>
   );
 }
 

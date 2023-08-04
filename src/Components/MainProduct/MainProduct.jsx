@@ -2,11 +2,11 @@ import React from 'react'
 import './MainProduct.css'
 import ProductCard from '../ProductCard/ProductCard'
 
-const MainProduct = ({product}) => {
+const MainProduct = ({products}) => {
   return (
     <div className='main-product'>
         {
-            product.map((product, index)=>
+            products.map((product, index)=>
             <ProductCard product={product}
             key= {`product - ${index}`}
             id={product.id}

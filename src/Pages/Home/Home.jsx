@@ -2,6 +2,8 @@ import React from 'react'
 import axios from 'axios';
 import { useState, useEffect } from 'react';
 import MainProduct from '../../Components/MainProduct/MainProduct';
+import Layout from '../../Components/Layout/Layout';
+import SideBarItems from '../../Components/SideBar/SideBarItems';
 
 const Home = () => {
   const [products, setProducts] = useState([]);
@@ -15,9 +17,14 @@ const Home = () => {
   console.log(products);
 
   return (
+    <Layout>
+      <div className='grid grid-cols-2'>
+    <SideBarItems />
     <div className="app">
-      <MainProduct product={products} />
+      <MainProduct products={products} />
     </div>
+      </div>
+    </Layout>
   );
 }
 

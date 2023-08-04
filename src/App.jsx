@@ -4,6 +4,7 @@ import './App.css'
 import Home from './Pages/Home/Home';
 import ProductDetail from './Pages/ProductDetail/ProductDetail';
 import NotFound from './Pages/NotFound/NotFound';
+import All from './Components/All/All';
 
 const App = () => {
   const router = createBrowserRouter([
@@ -14,6 +15,10 @@ const App = () => {
     {
       path: "/:id",
       element: <ProductDetail />,
+    },
+    {
+      path: "/all",
+      element: <All />,
     },
     {
       path: "*",
