@@ -9,7 +9,7 @@
     @apply w-[100%] h-[100%] object-contain;
 }
 .paragraphs {
-    @apply flex items-center gap-4 border rounded-[3rem] py-2 px-4;
+    @apply flex items-center gap-4 border-[1.5px] rounded-[3rem] py-2 px-4;
 }
 .title{
     @apply font-bold text-[1rem] ;

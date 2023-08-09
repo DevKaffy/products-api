@@ -5,6 +5,7 @@ import MainProduct from '../../Components/MainProduct/MainProduct';
 import Layout from '../../Components/Layout/Layout';
 import './Home.css'
 import SideBar from '../../Components/SideBar/SideBar';
+import RightBar from '../../Components/RightBar/RightBar';
 
 const Home = () => {
   const [products, setProducts] = useState([]);
@@ -24,6 +25,7 @@ const Home = () => {
     <div className="app">
       <MainProduct products={products} />
     </div>
+    <RightBar/>
       </div>
     </Layout>
   );
