@@ -18,8 +18,8 @@ const Navbar = () => {
         <div>Stickers</div>
       </div>
       <StatusBar />
-      <div className="border-[#737373] border-1 h-16 w-16 rounded-[5px] flex align-center justify-center m-4 shadow-md">
-        <img src="/cart.svg" alt="" className="w-6 h-6 self-center" />
+      <div className="border-[#737373] border-1 h-10 w-10 rounded-[5px] flex align-center justify-center m-4 shadow-md">
+        <img src="/cart.svg" alt="" className="w-5 h-5 self-center" />
       </div>
     </div>
   );
