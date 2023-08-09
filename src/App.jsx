@@ -17,10 +17,6 @@ const App = () => {
       element: <ProductDetail />,
     },
     {
-      path: "/all",
-      element: <All />,
-    },
-    {
       path: "*",
       element: <NotFound />,
     },

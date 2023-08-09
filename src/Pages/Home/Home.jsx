@@ -3,7 +3,8 @@ import axios from 'axios';
 import { useState, useEffect } from 'react';
 import MainProduct from '../../Components/MainProduct/MainProduct';
 import Layout from '../../Components/Layout/Layout';
-import SideBarItems from '../../Components/SideBar/SideBarItems';
+import './Home.css'
+import SideBar from '../../Components/SideBar/SideBar';
 
 const Home = () => {
   const [products, setProducts] = useState([]);
@@ -18,8 +19,8 @@ const Home = () => {
 
   return (
     <Layout>
-      <div className='grid grid-cols-2'>
-    <SideBarItems />
+      <div className='main-wrapper'>
+    <SideBar />
     <div className="app">
       <MainProduct products={products} />
     </div>

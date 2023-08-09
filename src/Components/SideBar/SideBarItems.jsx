@@ -1,14 +1,10 @@
 import React from 'react'
 
-const SideBarItems = ({all, men, women, jewelry, electronics }) => {
+const SideBarItems = ({ item }) => {
   return (
-    <div className='bg-[red] w-[30rem] h-[30rem]'>
-      <li>{all}</li>
-      <li>{men}</li>
-      <li>{women}</li>
-      <li>{jewelry}</li>
-      <li>{electronics}</li>
-    </div>
+    <ul>
+      <li>{item}</li> 
+    </ul>
   );
 }
 
