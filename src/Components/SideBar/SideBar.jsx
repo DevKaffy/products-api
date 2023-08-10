@@ -9,7 +9,7 @@ const SideBar = () => {
   const navigate=useNavigate()
 
   return (
-    <div>
+    <div className='mb-8'>
       <div className="mb-4 text-[#737373]">Collections</div>
       <div className="flex flex-col gap-2">
         {items.map((item, index) => (

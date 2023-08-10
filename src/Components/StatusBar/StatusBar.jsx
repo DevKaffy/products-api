@@ -2,7 +2,7 @@ import React from 'react'
 
 const StatusBar = () => {
   return (
-    <form className="flex items-center justify-between border-2 px-8 py-2 rounded-[10px] w-[30rem]">
+    <form className="flex items-center justify-between border-2 px-8 py-2 rounded-[10px] lg:w-[30rem] w-full">
       <input
         type="text"
         placeholder="Search for products..."
