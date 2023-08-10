@@ -3,7 +3,7 @@
    /* box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.5); */
 }
 .image{
-    @apply h-[15rem] w-[15rem] ;
+    @apply h-[15rem] md:w-[15rem]  sm:w-full;
 }
 .image img {
     @apply w-[90%] h-[90%] hover:w-[100%] hover:h-[100%] object-contain;

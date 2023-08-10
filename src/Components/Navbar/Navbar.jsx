@@ -14,12 +14,13 @@ const Navbar = () => {
         <h2 className="font-bold">ACME STORE</h2>
       </div>
       </Link>
-      <div className="flex items-center gap-4 text-[#737373]">
+      <div className="flex items-center gap-4 text-[#737373] mb-8 lg:mb-0">
+        <div>All</div>
         <div>Shirts</div>
         <div>Stickers</div>
       </div>
       <StatusBar />
-      <div className="border-[#737373] border-1 h-10 w-10 rounded-[5px] flex align-center justify-center m-4 shadow-md">
+      <div className="border-[#737373] border-1 h-10 w-10 rounded-[5px] flex align-center justify-center lg:m-4 shadow-md">
         <img src="/cart.svg" alt="" className="w-5 h-5 self-center" />
       </div>
     </div>
