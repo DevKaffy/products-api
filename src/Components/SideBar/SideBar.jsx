@@ -11,7 +11,7 @@ const SideBar = () => {
   return (
     <div className='mb-8'>
       <div className="mb-4 text-[#737373]">Collections</div>
-      <div className="flex flex-col gap-2">
+      <div className="flex flex-wrap lg:flex-col gap-2">
         {items.map((item, index) => (
           <SideBarItems  onClick={()=>navigate(`?tab=${item}`)} key={`items- ${index}`} item={item} />
         ))}
