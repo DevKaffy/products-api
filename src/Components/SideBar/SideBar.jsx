@@ -1,13 +1,12 @@
 import React from 'react'
 import SideBarItems from './SideBarItems'
-import { useNavigate, useSearchParams } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 
 const items = ['All', 'Men\'s clothing', 
 'Women\'s clothing', 'Jewelery', 'Electronics']
 const SideBar = () => {
 
   const navigate=useNavigate()
-
 
   return (
     <div>

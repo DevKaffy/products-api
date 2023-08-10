@@ -1,11 +1,14 @@
-import React from 'react'
+const RightBarItems = ({ rightItem, activeTab }) => {
 
-const RightBarItems = ({rightItem}) => {
   return (
     <ul>
-        <li>{rightItem}</li>
+      <li
+        className={activeTab? "underline" : " "}
+      >
+        {rightItem}
+      </li>
     </ul>
-  )
-}
+  );
+};
 
-export default RightBarItems
+export default RightBarItems;

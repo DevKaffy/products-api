@@ -17,6 +17,8 @@ Fetching an e-commerce api from fake store using Axios library.
 ## Preview here
 [Go Live](https://products-api-ui.netlify.app/)
 
+![screenshot](/public/Homepage.png)
+![screenshot](/public/Detailpage.png)
 
 ## Contact
 If you want to contact me you can reach me at
