@@ -1,5 +1,5 @@
 .product-detail{
-    @apply grid lg:grid-cols-2 gap-20 mx-8 my-20;
+    @apply lg:grid lg:grid-cols-2 block gap-20 mx-8 my-20;
 }
 .details {
     @apply flex flex-col gap-4;

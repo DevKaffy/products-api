@@ -1,6 +1,5 @@
 import React from 'react'
 import './Navbar.css'
-import All from '../All/All'
 import StatusBar from '../StatusBar/StatusBar'
 import { Link } from 'react-router-dom'
 
@@ -16,7 +15,6 @@ const Navbar = () => {
       </div>
       </Link>
       <div className="flex items-center gap-4 text-[#737373]">
-        <All />
         <div>Shirts</div>
         <div>Stickers</div>
       </div>
