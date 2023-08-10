@@ -26,7 +26,7 @@ const ProductDetail = () => {
   return (
     <Layout>
       <div className="product-detail">
-        <div>
+        <div className='image-wrapper'>
           <img
             className="bg-cover w-full rounded-[5px]"
             src={productDetail.image}

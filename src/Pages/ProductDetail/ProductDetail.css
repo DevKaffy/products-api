@@ -1,6 +1,9 @@
 .product-detail{
     @apply lg:grid lg:grid-cols-2 block gap-20 mx-8 my-20;
 }
+.image-wrapper{
+    @apply mb-8 lg:mb-0;
+}
 .details {
     @apply flex flex-col gap-4;
 }
