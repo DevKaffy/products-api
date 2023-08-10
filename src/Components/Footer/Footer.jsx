@@ -12,7 +12,7 @@ const Footer = () => {
           <h2 className="font-bold">ACME STORE</h2>
         </div>
       </Link>
-      <div className="flex flex-col gap-8 text-[#737373] text-xl">
+      <div className="flex lg:flex-col flex-wrap gap-8 text-[#737373] text-xl">
         <div>Home</div>
         <div>About</div>
         <div>Terms & Conditions</div>
